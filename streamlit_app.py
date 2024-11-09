@@ -2,7 +2,8 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
-nltk.download('punkt_tab')from sklearn.feature_extraction.text import TfidfVectorizer
+nltk.download('punkt_tab')
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
 import pandas as pd
@@ -178,6 +179,7 @@ class DocumentClustering:
         # Create DataFrame and sort by Average Similarity
         df = pd.DataFrame(similarity_metrics)
         return df.sort_values('Average Similarity', ascending=False)
+        
 import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize, TweetTokenizer
 from nltk.corpus import stopwords
@@ -336,6 +338,7 @@ class TextPreprocessor:
         except Exception as e:
             print(f"Error in preprocessing pipeline: {str(e)}")
             raise
+            
 def load_sample_data():
     """Load sample documents for demonstration"""
     return [
@@ -365,6 +368,7 @@ def load_sample_data():
                          and interpreting numerical data to find patterns."""
         }
     ]
+    
 import plotly.express as px
 from sklearn.decomposition import PCA
 import pandas as pd
@@ -396,6 +400,7 @@ class ClusterVisualizer:
         )
         
         return fig
+        
 import streamlit as st
 import pandas as pd
 import numpy as np
