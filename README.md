@@ -1,7 +1,9 @@
 # Document Similarity Analyzer
 
-Welcome to the Document Similarity Analyzer, where your documents are scrutinized with the precision of a detective and the finesse of a noir film. This application is designed to help you analyze and visualize document similarities with the grace of a cat burglar in the night.
+Welcome to the Document Similarity Analyzer, a streamlit application exercising document comparison techniques
 
+## Screenshot
+![img.png](img.png)
 ## Features
 
 - **Preprocessing Options**: Clean and prepare your text with options like lowercase conversion, punctuation removal, and more. It's like giving your documents a fresh shave and a clean suit.
@@ -28,12 +30,9 @@ Welcome to the Document Similarity Analyzer, where your documents are scrutinize
 
 ## Contributing
 
-Feel like adding a new feature or fixing a bug? Fork the repo, make your changes, and submit a pull request. We promise not to leave you in the dark.
+Feel like adding a new feature or fixing a bug? Fork the repo, make your changes, and submit a pull request. 
 
 ## License
 
 This project is licensed under the MIT License. Because even in the shadows, we play fair.
 
----
-
-Remember, in the world of document analysis, it's not just about what you see, but what you don't see. Happy analyzing, detective.
