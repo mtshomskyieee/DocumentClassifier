@@ -6,11 +6,11 @@ Welcome to the Document Similarity Analyzer, a streamlit application exercising 
 ![img.png](img.png)
 ## Features
 
-- **Preprocessing Options**: Clean and prepare your text with options like lowercase conversion, punctuation removal, and more. It's like giving your documents a fresh shave and a clean suit.
-- **Tokenization and N-grams**: Choose how to split your text and decide on n-gram sizes. It's like choosing your weapon before a heist.
-- **Clustering and Visualization**: Group similar documents and visualize them with style. See your documents form clusters like a gang of misfits plotting their next move.
-- **Similarity Metrics**: Dive deep into the numbers with cosine, Euclidean, Jaccard, and centroid similarities. It's all about the details, darling.
-- **Export Results**: Take your findings with you in JSON or CSV format. Because a good detective always shares their case files.
+- **Preprocessing Options**: Clean and prepare your text with options like lowercase conversion, punctuation removal, and more. 
+- **Tokenization and N-grams**: Choose how to split your text and decide on n-gram sizes. 
+- **Clustering and Visualization**: Group similar documents and visualize them with style. See your documents form clusters .
+- **Similarity Metrics**: Dive deep into the numbers with cosine, Euclidean, Jaccard, and centroid similarities. 
+- **Export Results**: Take your findings with you in JSON or CSV format.
 
 ## Installation
 
