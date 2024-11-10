@@ -20,6 +20,9 @@ Welcome to the Document Similarity Analyzer, a streamlit application exercising 
 4. Install the requirements: `pip install -r requirements.txt`
 5. **REQUIRED** Download nltk data (once per install) `python download_nltk.py`
 
+### Streamlit
+The application is a Streamlit application.  The individual python files are concatenated into `streamlit_app.py` for deployment.
+
 ## Usage
 
 1. Fire up the app: `streamlit run main.py`
