@@ -1,3 +1,5 @@
+# Medium Document: https://medium.com/@mtshomsky/document-similarity-clustering-23638d3aa65c
+
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
